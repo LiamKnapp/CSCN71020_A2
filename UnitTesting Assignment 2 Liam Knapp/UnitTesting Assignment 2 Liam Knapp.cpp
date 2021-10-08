@@ -6,10 +6,10 @@
 
 extern "C" { // call functions from Main.c
 
-	int getArea(int* length, int* width);
-	int getPerimeter(int* length, int* width);
-	void setLength(int input, int* length);
-	void setWidth(int input, int* width);
+	int getArea(int* length, int* width); // area function
+	int getPerimeter(int* length, int* width); // perimeter function
+	void setLength(int input, int* length); // length function
+	void setWidth(int input, int* width); // width function
 }
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
